@@ -1,0 +1,550 @@
+{
+    "log": {
+        "version": "1.2",
+        "creator": {
+            "name": "BrowserMob Proxy",
+            "version": "2.1.4",
+            "comment": ""
+        },
+        "pages": [
+            {
+                "id": "Page 0",
+                "startedDateTime": "2019-04-14T00:40:38.301+05:30",
+                "title": "Page 0",
+                "pageTimings": {
+                    "onLoad": 13,
+                    "comment": ""
+                },
+                "comment": ""
+            },
+            {
+                "id": "OpenBlazeDemoSite",
+                "startedDateTime": "2019-04-14T00:40:38.314+05:30",
+                "title": "OpenBlazeDemoSite",
+                "pageTimings": {
+                    "onLoad": 6037,
+                    "comment": ""
+                },
+                "comment": ""
+            },
+            {
+                "id": "FindFlights",
+                "startedDateTime": "2019-04-14T00:40:44.351+05:30",
+                "title": "FindFlights",
+                "pageTimings": {
+                    "comment": ""
+                },
+                "comment": ""
+            }
+        ],
+        "entries": [
+            {
+                "pageref": "OpenBlazeDemoSite",
+                "startedDateTime": "2019-04-14T00:40:38.505+05:30",
+                "request": {
+                    "method": "GET",
+                    "url": "http://blazedemo.com/",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "queryString": [],
+                    "headersSize": 410,
+                    "bodySize": 0,
+                    "comment": ""
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "content": {
+                        "size": 0,
+                        "mimeType": "text/html; charset=UTF-8",
+                        "comment": ""
+                    },
+                    "redirectURL": "",
+                    "headersSize": 191,
+                    "bodySize": 8342,
+                    "comment": ""
+                },
+                "cache": {},
+                "timings": {
+                    "comment": "",
+                    "ssl": -1,
+                    "send": 6,
+                    "connect": 539,
+                    "dns": 24,
+                    "wait": 303,
+                    "receive": 17,
+                    "blocked": 0
+                },
+                "serverIPAddress": "18.196.117.118",
+                "comment": "",
+                "time": 891
+            },
+            {
+                "pageref": "OpenBlazeDemoSite",
+                "startedDateTime": "2019-04-14T00:40:39.452+05:30",
+                "request": {
+                    "method": "GET",
+                    "url": "http://blazedemo.com/assets/bootstrap.min.js",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "queryString": [],
+                    "headersSize": 353,
+                    "bodySize": 0,
+                    "comment": ""
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "content": {
+                        "size": 0,
+                        "mimeType": "text/javascript",
+                        "comment": ""
+                    },
+                    "redirectURL": "",
+                    "headersSize": 220,
+                    "bodySize": 28663,
+                    "comment": ""
+                },
+                "cache": {},
+                "timings": {
+                    "comment": "",
+                    "ssl": -1,
+                    "send": 2,
+                    "connect": -1,
+                    "dns": -1,
+                    "wait": 693,
+                    "receive": 236,
+                    "blocked": -1
+                },
+                "serverIPAddress": "18.196.117.118",
+                "comment": "",
+                "time": 932
+            },
+            {
+                "pageref": "OpenBlazeDemoSite",
+                "startedDateTime": "2019-04-14T00:40:39.454+05:30",
+                "request": {
+                    "method": "GET",
+                    "url": "http://blazedemo.com/bootstrap-table.js",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "queryString": [],
+                    "headersSize": 348,
+                    "bodySize": 0,
+                    "comment": ""
+                },
+                "response": {
+                    "status": 404,
+                    "statusText": "Not Found",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "content": {
+                        "size": 0,
+                        "mimeType": "text/html; charset=UTF-8",
+                        "comment": ""
+                    },
+                    "redirectURL": "",
+                    "headersSize": 207,
+                    "bodySize": -1,
+                    "comment": ""
+                },
+                "cache": {},
+                "timings": {
+                    "comment": "",
+                    "ssl": -1,
+                    "send": 2,
+                    "connect": 697,
+                    "dns": 2,
+                    "wait": 238,
+                    "receive": 14,
+                    "blocked": 0
+                },
+                "serverIPAddress": "18.196.117.118",
+                "comment": "",
+                "time": 955
+            },
+            {
+                "pageref": "OpenBlazeDemoSite",
+                "startedDateTime": "2019-04-14T00:40:39.454+05:30",
+                "request": {
+                    "method": "GET",
+                    "url": "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "queryString": [],
+                    "headersSize": 378,
+                    "bodySize": 0,
+                    "comment": ""
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "content": {
+                        "size": 0,
+                        "mimeType": "text/javascript; charset=UTF-8",
+                        "comment": ""
+                    },
+                    "redirectURL": "",
+                    "headersSize": 505,
+                    "bodySize": 29195,
+                    "comment": ""
+                },
+                "cache": {},
+                "timings": {
+                    "comment": "",
+                    "ssl": -1,
+                    "send": 0,
+                    "connect": 17,
+                    "dns": 15,
+                    "wait": 22,
+                    "receive": 23,
+                    "blocked": 0
+                },
+                "serverIPAddress": "172.217.160.202",
+                "comment": "",
+                "time": 79
+            },
+            {
+                "pageref": "OpenBlazeDemoSite",
+                "startedDateTime": "2019-04-14T00:40:39.461+05:30",
+                "request": {
+                    "method": "GET",
+                    "url": "http://blazedemo.com/assets/bootstrap-table.css",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "queryString": [],
+                    "headersSize": 371,
+                    "bodySize": 0,
+                    "comment": ""
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "content": {
+                        "size": 0,
+                        "mimeType": "text/css",
+                        "comment": ""
+                    },
+                    "redirectURL": "",
+                    "headersSize": 212,
+                    "bodySize": 3765,
+                    "comment": ""
+                },
+                "cache": {},
+                "timings": {
+                    "comment": "",
+                    "ssl": -1,
+                    "send": 2,
+                    "connect": 693,
+                    "dns": 0,
+                    "wait": 230,
+                    "receive": 3,
+                    "blocked": 0
+                },
+                "serverIPAddress": "18.196.117.118",
+                "comment": "",
+                "time": 930
+            },
+            {
+                "pageref": "OpenBlazeDemoSite",
+                "startedDateTime": "2019-04-14T00:40:39.461+05:30",
+                "request": {
+                    "method": "GET",
+                    "url": "http://blazedemo.com/assets/bootstrap.min.css",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "queryString": [],
+                    "headersSize": 369,
+                    "bodySize": 0,
+                    "comment": ""
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "content": {
+                        "size": 0,
+                        "mimeType": "text/css",
+                        "comment": ""
+                    },
+                    "redirectURL": "",
+                    "headersSize": 214,
+                    "bodySize": 126461,
+                    "comment": ""
+                },
+                "cache": {},
+                "timings": {
+                    "comment": "",
+                    "ssl": -1,
+                    "send": 2,
+                    "connect": 693,
+                    "dns": 0,
+                    "wait": 230,
+                    "receive": 830,
+                    "blocked": 0
+                },
+                "serverIPAddress": "18.196.117.118",
+                "comment": "",
+                "time": 1757
+            },
+            {
+                "pageref": "OpenBlazeDemoSite",
+                "startedDateTime": "2019-04-14T00:40:41.332+05:30",
+                "request": {
+                    "method": "GET",
+                    "url": "http://blazedemo.com/favicon.ico",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "queryString": [],
+                    "headersSize": 377,
+                    "bodySize": 0,
+                    "comment": ""
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "content": {
+                        "size": 0,
+                        "mimeType": "image/x-icon",
+                        "comment": ""
+                    },
+                    "redirectURL": "",
+                    "headersSize": 213,
+                    "bodySize": 0,
+                    "comment": ""
+                },
+                "cache": {},
+                "timings": {
+                    "comment": "",
+                    "ssl": -1,
+                    "send": 0,
+                    "connect": -1,
+                    "dns": -1,
+                    "wait": 223,
+                    "receive": 0,
+                    "blocked": -1
+                },
+                "serverIPAddress": "18.196.117.118",
+                "comment": "",
+                "time": 224
+            },
+            {
+                "pageref": "OpenBlazeDemoSite",
+                "startedDateTime": "2019-04-14T00:40:41.811+05:30",
+                "request": {
+                    "method": "GET",
+                    "url": "https://ssl.gstatic.com/docs/common/cleardot.gif?zx=3ickx8gxa8hz",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "queryString": [
+                        {
+                            "name": "zx",
+                            "value": "3ickx8gxa8hz"
+                        }
+                    ],
+                    "headersSize": 511,
+                    "bodySize": 0,
+                    "comment": ""
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "content": {
+                        "size": 0,
+                        "mimeType": "image/gif",
+                        "comment": ""
+                    },
+                    "redirectURL": "",
+                    "headersSize": 385,
+                    "bodySize": 43,
+                    "comment": ""
+                },
+                "cache": {},
+                "timings": {
+                    "comment": "",
+                    "ssl": 729,
+                    "send": 5,
+                    "connect": 828,
+                    "dns": 19,
+                    "wait": 75,
+                    "receive": 1,
+                    "blocked": 0
+                },
+                "serverIPAddress": "216.58.196.67",
+                "comment": "",
+                "time": 930
+            },
+            {
+                "pageref": "OpenBlazeDemoSite",
+                "startedDateTime": "2019-04-14T00:40:43.745+05:30",
+                "request": {
+                    "method": "POST",
+                    "url": "https://dc.services.visualstudio.com/v2/track",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "queryString": [],
+                    "headersSize": 170,
+                    "bodySize": 627,
+                    "comment": ""
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "content": {
+                        "size": 0,
+                        "mimeType": "application/json; charset=utf-8",
+                        "comment": ""
+                    },
+                    "redirectURL": "",
+                    "headersSize": 476,
+                    "bodySize": 49,
+                    "comment": ""
+                },
+                "cache": {},
+                "timings": {
+                    "comment": "",
+                    "ssl": 275,
+                    "send": 2,
+                    "connect": 295,
+                    "dns": 0,
+                    "wait": 810,
+                    "receive": 0,
+                    "blocked": 0
+                },
+                "serverIPAddress": "104.211.92.54",
+                "comment": "",
+                "time": 1108
+            },
+            {
+                "pageref": "OpenBlazeDemoSite",
+                "startedDateTime": "2019-04-14T00:40:43.750+05:30",
+                "request": {
+                    "method": "POST",
+                    "url": "https://dc.services.visualstudio.com/v2/track",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "queryString": [],
+                    "headersSize": 170,
+                    "bodySize": 527,
+                    "comment": ""
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "content": {
+                        "size": 0,
+                        "mimeType": "application/json; charset=utf-8",
+                        "comment": ""
+                    },
+                    "redirectURL": "",
+                    "headersSize": 476,
+                    "bodySize": 49,
+                    "comment": ""
+                },
+                "cache": {},
+                "timings": {
+                    "comment": "",
+                    "ssl": 322,
+                    "send": 1,
+                    "connect": 341,
+                    "dns": 23,
+                    "wait": 472,
+                    "receive": 1,
+                    "blocked": 0
+                },
+                "serverIPAddress": "104.211.92.54",
+                "comment": "",
+                "time": 839
+            },
+            {
+                "pageref": "FindFlights",
+                "startedDateTime": "2019-04-14T00:40:44.485+05:30",
+                "request": {
+                    "method": "POST",
+                    "url": "http://blazedemo.com/reserve.php",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "queryString": [],
+                    "headersSize": 579,
+                    "bodySize": 34,
+                    "comment": ""
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "content": {
+                        "size": 0,
+                        "mimeType": "text/html; charset=UTF-8",
+                        "comment": ""
+                    },
+                    "redirectURL": "",
+                    "headersSize": 191,
+                    "bodySize": 10976,
+                    "comment": ""
+                },
+                "cache": {},
+                "timings": {
+                    "comment": "",
+                    "ssl": -1,
+                    "send": 1,
+                    "connect": -1,
+                    "dns": -1,
+                    "wait": 308,
+                    "receive": 2,
+                    "blocked": -1
+                },
+                "serverIPAddress": "18.196.117.118",
+                "comment": "",
+                "time": 313
+            },
+            {
+                "pageref": "FindFlights",
+                "startedDateTime": "2019-04-14T00:40:44.830+05:30",
+                "request": {
+                    "method": "GET",
+                    "url": "http://blazedemo.com/bootstrap-table.js",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [],
+                    "queryString": [],"headersSize":359,"bodySize":0,"comment":""},"response":{"status":404,"statusText":"Not Found","httpVersion":"HTTP/1.1","cookies":[],"headers":[],"content":{"size":0,"mimeType":"text/html; charset=UTF-8","comment":""},"redirectURL":"","headersSize":207,"bodySize":15496,"comment":""},"cache":{},"timings":{"comment":"","ssl":-1,"send":1,"connect":-1,"dns":-1,"wait":233,"receive":8,"blocked":-1},"serverIPAddress":"18.196.117.118","comment":"","time":243}],"comment":""}}
