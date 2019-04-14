@@ -21,7 +21,7 @@ public class BrowserMobRest {
         String browserMobUrl = "http://localhost:8080/proxy?port=3001&trustAllServers=true";
         HttpClient httpClient = HttpClientBuilder.create().build();
         HttpPost post = new HttpPost(browserMobUrl);
-
+        System.out.println("Test");
         /*
          * ArrayList<NameValuePair> urlParameters = new ArrayList<NameValuePair>();
          * 
@@ -93,28 +93,27 @@ public class BrowserMobRest {
 
         try {
 
-            
+
             HttpResponse response = httpClient.execute(get);
 
-           System.out.println(response.getStatusLine().getStatusCode());
-           
-           BufferedReader rd = new BufferedReader(
-	       new InputStreamReader(response.getEntity().getContent()));
+            System.out.println(response.getStatusLine().getStatusCode());
 
-	    StringBuffer result = new StringBuffer();
-	    String line = "";
-	    while ((line = rd.readLine()) != null) {
-		result.append(line);
+            BufferedReader rd =
+                    new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
+
+            StringBuffer result = new StringBuffer();
+            String line = "";
+            while ((line = rd.readLine()) != null) {
+                result.append(line);
 
 
-        } 
+            }
 
-        String final_result = result.toString();
+            String final_result = result.toString();
 
-        System.out.println("HAR Content :: -> ");
-        System.out.println(final_result);
-    } 
-        catch (ClientProtocolException e) {
+            System.out.println("HAR Content :: -> ");
+            System.out.println(final_result);
+        } catch (ClientProtocolException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
@@ -123,6 +122,6 @@ public class BrowserMobRest {
         }
 
 
-	}
+    }
 
 }
