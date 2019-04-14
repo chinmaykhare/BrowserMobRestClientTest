@@ -1,4 +1,4 @@
-package com.browsermobproxy.test;
+package com.browsermobproxy;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
